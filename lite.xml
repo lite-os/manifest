@@ -16,29 +16,21 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
-<!-- bionic -->
-  <project path="bionic" name="bionic" remote="lite" />
-  
 <!-- bootable -->
   <project path="bootable/recovery" name="bootable_recovery" remote="lite" />
   
 <!-- external -->
-  <project path="external/mksh" name="external_mksh" remote="lite" />
   <project path="external/selinux" name="external_selinux" remote="lite" />
   
 <!-- frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="lite" /> 
   <project path="frameworks/base" name="frameworks_base" remote="lite" />
-  <project path="frameworks/native" name="frameworks_native" remote="lite" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="lite" />
   
 <!-- hardware -->
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="lite" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="lite" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="lite" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="lite" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="lite" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="lite" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="lite" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="lite" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="lite" />
@@ -51,12 +43,8 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="lite" />
   
 <!-- system -->
-  <project path="system/bt" name="system_bt" remote="lite" />
   <project path="system/core" name="system_core" remote="lite" />
-  <project path="system/media" name="system_media" remote="lite" />
-  <project path="system/nfc" name="system_nfc" remote="lite" />
   <project path="system/sepolicy" name="system_sepolicy" remote="lite" />
-  <project path="system/vold" name="system_vold" remote="lite" />
 
 <!-- Manifest -->
   <project name="manifest" path="manifest" remote="lite" />

@@ -30,6 +30,7 @@
 <!-- Google -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
+  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -213,6 +214,7 @@
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk" />
   <project path="external/Microsoft-GSL" name="platform/external/Microsoft-GSL" groups="pdk" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
+  <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/mmc-utils" name="platform/external/mmc-utils" groups="pdk" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk" />
@@ -318,6 +320,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />  
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -345,8 +348,11 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="easel" />  
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />  
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
@@ -470,6 +476,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
@@ -484,7 +491,9 @@
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
+  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
@@ -492,6 +501,7 @@
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk-fs" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk-fs" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,pdk-fs" />
