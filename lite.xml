@@ -51,5 +51,5 @@
 
 <!-- vendor -->
   <project name="vendor_lite" path="vendor/lite" remote="lite" />
-  <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="lite" />
+
 </manifest>

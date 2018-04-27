@@ -13,11 +13,6 @@
   <project name="platform/external/json-c" path="external/json-c" remote="qcom" />
   <project name="external_tinycompress" path="external/tinycompress" remote="lite" />
 
-<!--  HALS -->
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8953" revision="8.1-caf-8953" remote="lite" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8953" revision="8.1-caf-8953" remote="lite" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8953" revision="8.1-caf-8953" remote="lite" />
-
 <!-- hardware -->
   <project name="hardware_ril" path="hardware/ril-caf" remote="lite" revision="8.1-caf" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="lite" revision="8.1-caf" />
