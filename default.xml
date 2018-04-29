@@ -22,7 +22,12 @@
 <!-- LiteOS-->
    <remote name="lite"
            fetch="https://github.com/lite-os/"
-           revision="8.1" />       
+           revision="8.1" />
+          
+<!-- exp-->
+   <remote name="lite-exp"
+           fetch="https://github.com/lite-os/"
+           revision="8.1-exp" />
            
   <include name="lite.xml" />
   <include name="qcom.xml" />

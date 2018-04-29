@@ -24,7 +24,7 @@
   
 <!-- frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="lite" /> 
-  <project path="frameworks/base" name="frameworks_base" remote="lite" />
+  <project path="frameworks/base" name="frameworks_base" remote="lite-exp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="lite" />
   
 <!-- hardware -->
@@ -39,17 +39,17 @@
   <project path="hardware/ril" name="hardware_ril" remote="lite" />
   
 <!-- packages -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite-exp" />
   <project path="packages/services/Launcher3" name="packages_apps_Launcher3" remote="lite" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="lite" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="lite" />
   
 <!-- system -->
-  <project path="system/core" name="system_core" remote="lite" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="lite" />
+  <project path="system/core" name="system_core" remote="lite-exp" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="lite-exp" />
 
 <!-- Manifest -->
-  <project name="manifest" path="manifest" remote="lite" />
+  <project name="manifest" path="manifest" remote="lite-exp" />
 
 <!-- vendor -->
   <project name="vendor_lite" path="vendor/lite" remote="lite" />
