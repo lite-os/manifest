@@ -39,6 +39,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="lite" />
   
 <!-- packages -->
+  <project path="packages/apps/Lite" name="packages_apps_Lite" remote="lite-exp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite-exp" />
   <project path="packages/services/Launcher3" name="packages_apps_Launcher3" remote="lite" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="lite" />
