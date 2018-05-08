@@ -39,6 +39,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="lite" />
   
 <!-- packages -->
+  <project path="packages/apps/Bluetootch" name="packages_apps_Bluetooth" remote="lite-exp" />
   <project path="packages/apps/Lite" name="packages_apps_Lite" remote="lite-exp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite-exp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="lite-exp" />
