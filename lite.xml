@@ -49,6 +49,7 @@
   
 <!-- system -->
   <project path="system/core" name="system_core" remote="lite" />
+  <project path="system/media" name="system_media" remote="lite" />
   <project path="system/sepolicy" name="system_sepolicy" remote="lite" />
 
 <!-- Manifest -->
