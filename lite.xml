@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- build -->
-  <project path="build/make" name="build" remote="lite" > 
+  <project path="build/make" name="build" remote="lite-exp" > 
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -23,7 +23,7 @@
   <project path="external/selinux" name="external_selinux" remote="lite" />
   
 <!-- frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="lite" /> 
+  <project path="frameworks/av" name="frameworks_av" remote="lite-exp" /> 
   <project path="frameworks/base" name="frameworks_base" remote="lite-exp" />
   <project path="frameworks/native" name="frameworks_native" remote="lite-exp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="lite-exp" />
@@ -58,6 +58,6 @@
   <project name="manifest" path="manifest" remote="lite-exp" />
 
 <!-- vendor -->
-  <project name="vendor_lite" path="vendor/lite" remote="lite" />
+  <project name="vendor_lite" path="vendor/lite" remote="lite-exp" />
 
 </manifest>
