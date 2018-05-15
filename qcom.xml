@@ -2,7 +2,7 @@
 <manifest>
 <!-- qc-common & qc-sepolicy -->
   <project name="device_qcom_common" path="device/qcom/common" remote="lite"/>
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="lite" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="lite-exp" />
 
 <!-- External -->
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="lite" /> 
