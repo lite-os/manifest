@@ -19,6 +19,9 @@
 <!-- bootable -->
   <project path="bootable/recovery" name="bootable_recovery" remote="lite" />
   
+<!-- device-->
+  <project path="device/lite/sepolicy" name="device_lite_sepolicy" remote="lite" />  
+  
 <!-- external -->
   <project path="external/selinux" name="external_selinux" remote="lite" />
   
