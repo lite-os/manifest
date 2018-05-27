@@ -45,6 +45,7 @@
   
 <!-- packages -->
   <project path="packages/apps/Bluetootch" name="packages_apps_Bluetooth" remote="lite-exp" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="lite-exp" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="lite" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="lite-exp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite-exp" />
