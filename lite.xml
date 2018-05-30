@@ -67,6 +67,7 @@
   <project name="vendor_lite" path="vendor/lite" remote="lite" />
 
 <!-- LiteOS -->
+  <project name="LiteOS_apps_prebuilt" path="LiteOS/apps/prebuilt" remote="lite" />
   <project name="LiteOS_overlay" path="LiteOS/overlay" remote="lite" />
 
 </manifest>
