@@ -66,4 +66,7 @@
 <!-- vendor -->
   <project name="vendor_lite" path="vendor/lite" remote="lite-exp" />
 
+<!-- LiteOS -->
+  <project name="LiteOS_overlay" path="LiteOS/overlay" remote="lite-exp" />
+
 </manifest>
