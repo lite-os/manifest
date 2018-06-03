@@ -68,6 +68,7 @@
 
 <!-- LiteOS -->
   <project name="LiteOS_apps_prebuilt" path="LiteOS/apps/prebuilt" remote="lite" />
+  <project name="LiteOS_apps_Settings" path="LiteOS/apps/Settings" remote="lite-exp" />
   <project name="LiteOS_overlay" path="LiteOS/overlay" remote="lite-exp" />
 
 </manifest>
