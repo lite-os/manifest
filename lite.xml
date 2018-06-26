@@ -61,6 +61,7 @@
   <project path="system/media" name="system_media" remote="lite-exp" />
   <project path="system/nfc" name="system_nfc" remote="lite" />
   <project path="system/sepolicy" name="system_sepolicy" remote="lite-exp" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="lite" />
 
 <!-- Manifest -->
   <project name="manifest" path="manifest" remote="lite-exp" />
