@@ -21,3 +21,8 @@ Compiling the source!
 	lunch lite_$device-userdebug
 	mka lite -jx 
 	
+Releases:
+---------------------
+	
+[SOURCEFORGE](https://sourceforge.net/projects/lite-os/files).
+	
