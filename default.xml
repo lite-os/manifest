@@ -30,7 +30,6 @@
 <!-- Google -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -345,7 +344,6 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="easel" />  
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />  
