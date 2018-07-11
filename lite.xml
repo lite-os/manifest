@@ -70,6 +70,7 @@
 
 <!-- vendor -->
   <project name="vendor_lite" path="vendor/lite" remote="lite" />
+  <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="lite" />
 
 <!-- LiteOS -->
   <project name="LiteOS_apps_prebuilt" path="LiteOS/apps/prebuilt" remote="lite" />
