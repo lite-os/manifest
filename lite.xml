@@ -52,7 +52,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="lite" />
   
 <!-- packages -->
-  <project path="packages/apps/Bluetootch" name="packages_apps_Bluetooth" remote="lite" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="lite" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="lite" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="lite" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite" />
