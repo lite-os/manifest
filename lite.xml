@@ -58,7 +58,6 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="lite" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="lite" />
-  <project path="packages/services/Launcher3" name="packages_apps_Launcher3" remote="lite" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="lite" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="lite" />
   
