@@ -73,6 +73,9 @@
 <!-- Manifest -->
   <project name="manifest" path="manifest" remote="lite" />
 
+<!-- prebuilts -->
+  <project name="prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="lite" />
+
 <!-- vendor -->
   <project name="vendor_lite" path="vendor/lite" remote="lite" />
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="lite" />
