@@ -1,0 +1,28 @@
+Getting Started
+---------------
+
+To get started with LiteOS, you'll need to get familiar with
+[Git and Repo](https://source.android.com/setup/downloading).
+
+
+To initialize your local repository, use this command:
+
+
+	repo init -u git://github.com/lite-os/manifest.git -b 9.0
+
+
+Time to sync the source!:
+
+	repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+
+Compiling the source!
+---------------------
+	. build/envsetup.sh
+	lunch lite_$device-userdebug
+	mka lite -jx 
+	
+Releases:
+---------------------
+	
+[SOURCEFORGE](https://sourceforge.net/projects/lite-os/files).
+	

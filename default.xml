@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Google -->
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"
            sync-j="4" />
+
+<!-- Github --> 
+   <remote name="github"
+           fetch="https://github.com/" />
+
+<!-- Qcom -->
+   <remote name="qcom"
+           fetch="https://source.codeaurora.org/quic/la/"
+           revision="refs/tags/LA.UM.6.4.r1-09000-8x98.0" />
+
+<!-- LiteOS-->
+   <remote name="lite"
+           fetch="https://github.com/lite-os/"
+           revision="9.0" />       
+           
+  <include name="lite.xml" />
+  <include name="qcom.xml" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- vendor -->
+  <project name="vendor_lite" path="vendor/lite" remote="lite" />
+  
+</manifest>
