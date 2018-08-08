@@ -11,6 +11,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="build_soong" remote="lite" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+ 
+<!-- bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="lite" />
 
 <!-- vendor -->
   <project name="vendor_lite" path="vendor/lite" remote="lite" />
