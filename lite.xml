@@ -24,13 +24,29 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="lite" />
 
 <!-- external -->
+  <project path="external/selinux" name="external_selinux" remote="lite" />
+  <project name="external_tinycompress" path="external/tinycompress" remote="lite" />
   <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="lineage-15.1" /> 
 
 <!-- device-->
   <project path="device/lite/sepolicy" name="device_lite_sepolicy" remote="lite" />
 
+<!-- hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="lite" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="lite" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="lite" />
+  <project path="hardware/ril" name="hardware_ril" remote="lite" />
+
 <!-- Manifest -->
   <project name="manifest" path="manifest" remote="lite" />
+
+<!-- system -->
+  <project path="system/bt" name="system_bt" remote="lite" />
+  <project path="system/extras" name="system_extras" remote="lite" />
+  <project path="system/media" name="system_media" remote="lite" />
+  <project path="system/nfc" name="system_nfc" remote="lite" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="lite" />
+  <project path="system/vold" name="system_vold" remote="lite" />
 
 <!-- vendor -->
   <project name="vendor_lite" path="vendor/lite" remote="lite" />
