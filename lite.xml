@@ -32,6 +32,9 @@
 <!-- device-->
   <project path="device/lite/sepolicy" name="device_lite_sepolicy" remote="lite" />
 
+<!-- frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="lite" /> 
+
 <!-- hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="lite" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="lite" />
