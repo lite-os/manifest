@@ -4,6 +4,9 @@
   <project name="device_qcom_common" path="device/qcom/common" remote="lite"/>
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="lite" />
 
+<!-- External -->
+  <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="lite" />
+
 <!-- hardware -->
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="lite" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="lite" />
