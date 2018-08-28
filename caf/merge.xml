@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- External -->
+  <project path="external/json-c" name="external_json-c" remote="lite" />
+  <project path="external/ebtables" name="external_ebtables" remote="lite" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="lite" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="lite" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="lite" />
+  <project path="external/connectivity" name="external_connectivity" remote="lite" />
+
+  <!-- vendor -->
+  <project path="vendor/qcom/opensource/softap" name="system_qcom" remote="lite" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="lite" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="lite"  />
+  <project path="vendor/qcom/opensource/fm" name="vendor_qcom_opensource_fm" remote="lite" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="lite" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="lite" />
+</manifest>

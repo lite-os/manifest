@@ -10,22 +10,18 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Github --> 
-   <remote name="github"
-           fetch="https://github.com/" />
+  <!-- Github --> 
+  <remote name="github"
+          fetch="https://github.com/" />
 
-<!-- Qcom -->
-   <remote name="qcom"
-           fetch="https://source.codeaurora.org/quic/la/"
-           revision="refs/tags/LA.UM.6.4.r1-09000-8x98.0" />
-
-<!-- LiteOS-->
-   <remote name="lite"
-           fetch="https://github.com/lite-os/"
-           revision="9.0" />       
+  <!-- LiteOS-->
+  <remote name="lite"
+          fetch="https://github.com/lite-os/"
+          revision="9.0" />       
            
   <include name="lite.xml" />
-  <include name="qcom.xml" />
+  <include name="aosp/merge.xml" />
+  <include name="caf/merge.xml" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
