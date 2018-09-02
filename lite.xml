@@ -69,6 +69,7 @@
   <project path="system/nfc" name="system_nfc" remote="lite" />
   <project path="system/sepolicy" name="system_sepolicy" remote="lite" />
   <project path="system/vold" name="system_vold" remote="lite" />
+  <project path="system/update_engine" name="system_update_engine" remote="lite" />
 
 <!-- Manifest -->
   <project name="manifest" path="manifest" remote="lite" />
