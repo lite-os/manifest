@@ -26,6 +26,7 @@
            
   <include name="lite.xml" />
   <include name="qcom.xml" />
+  <include name="aosp/merge.xml" />
 
 <!-- Google -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
