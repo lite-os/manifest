@@ -24,5 +24,6 @@
 
   <!-- LiteOS -->
   <project path="LiteOS/apps/prebuilt" name="LiteOS_apps_prebuilt" remote="lite" />
+  <project path="LiteOS/apps/Settings" name="LiteOS_apps_Settings" remote="lite" />
   <project path="LiteOS/overlay" name="LiteOS_overlay" remote="lite" />
 </manifest>
