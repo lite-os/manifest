@@ -6,7 +6,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-9.0.0_r8"
+  <default revision="refs/tags/android-9.0.0_r10"
            remote="aosp"
            sync-j="4" />
 
@@ -17,8 +17,8 @@
   <!-- LiteOS-->
   <remote name="lite"
           fetch="https://github.com/lite-os/"
-          revision="9.0" />       
-           
+          revision="9.0" />
+
   <include name="lite.xml" />
   <include name="aosp/merge.xml" />
   <include name="caf/merge.xml" />
