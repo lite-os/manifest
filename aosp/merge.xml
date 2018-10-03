@@ -51,6 +51,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="lite" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="lite" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="lite" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="lite" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="lite" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="lite" />
