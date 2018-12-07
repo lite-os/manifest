@@ -19,7 +19,13 @@
           fetch="https://github.com/lite-os/"
           revision="9.0" />
 
+  <!-- LineageOS-->
+  <remote name="los"
+          fetch="https://github.com/LineageOS/"
+          revision="lineage-16.0" />
+
   <include name="lite.xml" />
+  <include name="lineage.xml" />
   <include name="aosp/merge.xml" />
   <include name="caf/merge.xml" />
 
