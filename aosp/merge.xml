@@ -35,23 +35,13 @@
   <project path="frameworks/support" name="frameworks_support" remote="lite" />
 
   <!-- hardware -->
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="lite" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="lite" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="lite" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="lite" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="lite" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="lite" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="lite" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="lite" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="lite" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="lite" />
-  <project path="hardware/ril" name="hardware_ril" remote="lite" />
 
   <!-- packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="lite" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="lite" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="lite" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="lite" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lite" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="lite" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="lite" />
