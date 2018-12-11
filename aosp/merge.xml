@@ -31,6 +31,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="lite" />
   <project path="frameworks/base" name="frameworks_base" remote="lite" />
   <project path="frameworks/native" name="frameworks_native" remote="lite" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="lite" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="lite" />
   <project path="frameworks/support" name="frameworks_support" remote="lite" />
 
